@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed-size</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-rows: 100px auto;
+        grid-template-columns: 400px auto;
+        gap: 10px;
+      }
+
+      .container > .box {
+        background-color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est doloremque voluptatum perferendis enim temporibus? Numquam similique saepe harum enim atque quidem cumque ut quam? Corporis necessitatibus quaerat accusamus eius molestias?</div>
+      <div class="box">4</div>
+    </div>
+  </body>
+</html>
